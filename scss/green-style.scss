@@ -21,6 +21,14 @@ h2, h3{
 	font-weight: 500;
 }
 
+.header-navigation__img, 
+.header-content__background, 
+.header-content__form input:last-child, 
+.header-content__point, 
+.restaurants-block__line {
+	transition: .4s;
+}
+
 .container{
 	width: 1800px;
 	margin: 0 auto;
@@ -102,7 +110,7 @@ h2, h3{
 				font-size: 18px;
 			}
 			input:last-child{
-				background: #FE043C;
+				background: #35CD8C;
 				border-radius: 60px 0px 0px 0px;
 				padding: 20px 75px;
 				border: none;
@@ -119,7 +127,7 @@ h2, h3{
 			top: 1000px;
 			display: flex;
 			align-items: center;
-			background: #FE043C;
+			background: #35CD8C;
 			padding: 20px 50px;
 			border-radius: 0px 100px 100px 0px;
 			cursor: pointer;
@@ -144,7 +152,7 @@ h2, h3{
 		&__background{
 			width: 500px;
 			height: 100%;
-			background: #FE043C;
+			background: #35CD8C;
 			position: absolute;
 			right: 0;
 			top: 0;
@@ -187,7 +195,7 @@ h2, h3{
 		&__line{
 			width: 25px;
 			height: 140px;
-			background: #FE043C;
+			background: #35CD8C;
 		}
 		&__title{
 			color: #2E266F;
@@ -231,12 +239,17 @@ h2, h3{
 		    margin-top: 300px;
 		}
 		&__info{
-			background-color: rgba(254,4,60, 0.7);
+			background-color: rgba(53, 205, 140, 0.7);
 			width: 100%;
 			height: 250px;
 			border-radius: 0px 0px 20px 20px;
 			padding: 20px 0px 0px 60px;
 			color: #fff;
+		}
+		&__arrow{
+	    	padding: 9px 14px;
+	    	background: #35CD8C;
+	    	border-radius: 100px;
 		}
 		&__title{
 			font-size: 24px;
@@ -296,14 +309,14 @@ h2, h3{
 			}
 			p{
 				font-size: 14px;
-				color: #FE043C;
+				color: #35CD8C;
 				margin: 10px 0px 0px -20px;
 			}
 		}
 		&__element:first-child:before{
 			content: '';
 			display: block;
-			background: #FE043C;
+			background: #35CD8C;
 			position: absolute;
 			width: 72px;
 			height: 3px;
@@ -343,7 +356,7 @@ h2, h3{
     	&__line{
     		width: 230px;
     		height: 15px;
-    		background: #FE043C;
+    		background: #35CD8C;
     		margin: 0 auto;
     	}
     	&__title{
@@ -352,6 +365,11 @@ h2, h3{
     		color: #2E266F;
     		text-align: center;
     		margin-top: 20px;
+    	}
+    	&__triangle{
+    		background: url('../img/green-triangle.png');
+    		width: 10px;
+    		height: 7px;
     	}
     	&__form{
     		   width: 585px;
@@ -369,7 +387,7 @@ h2, h3{
     		input:last-child{
     			padding: 16px 39px;
     			border: none;
-    			background: #FE043C;
+    			background: #35CD8C;
     			color: #fff;
     			font-weight: 600;
     			font-size: 30px;
@@ -384,12 +402,17 @@ h2, h3{
     		font-size: 16px;
     	}
     	&__item{
-    		p{
-    			margin-bottom: 10px;
-    			img{
+    		div{
+    			display: flex;
+    			align-items: center;
+    			div{
     				margin-left: 4px;
     			}
     		}
+    		span{
+    			display: block;
+				margin-top: 10px;
+			}
     	}
     }
     &-block:before{
@@ -451,7 +474,7 @@ h2, h3{
 		&__title1:before{
 			content: '';
 			display: block;
-			background: url('../img/Arrow1.png');
+			background: url('../img/green-arrow1.png');
 			width: 183px;
 			height: 16px;
 			position: absolute;
@@ -461,7 +484,7 @@ h2, h3{
 		&__title1:after{
 			content: '';
 			display: block;
-			background: #FE043C;
+			background: #35CD8C;
 			width: 84px;
 			height: 3px;
 			position: absolute;
@@ -488,12 +511,12 @@ h2, h3{
 			position: absolute;
 			left: 0px;
 			top: 45px;
-			background: #FE043C;
+			background: #35CD8C;
 		}
 		h3:after{
 			content: '';
 			display: block;
-			background: url(../img/Arrow2.png);
+			background: url("../img/green-arrow2.png");
 			width: 268px;
 			height: 16px;
 			position: absolute;
@@ -519,7 +542,7 @@ h2, h3{
 		p:after{
 			content: '';
 			display: block;
-			background: #FE043C;
+			background: #35CD8C;
 			width: 192px;
 			height: 3px;
 			margin: 20px auto 0;
@@ -556,7 +579,7 @@ h2, h3{
 		&__price{
 			font-weight: bold;
 			font-size: 24px;
-			color: #FE043C;
+			color: #35CD8C;
 		}
 	}
 	&-cards{
@@ -610,7 +633,7 @@ h2, h3{
 	}
 	&-title:before{
 		content: '';
-		background: #FE043C;
+		background: #35CD8C;
 		width: 25px;
 		height: 140px;
 		position: absolute;
@@ -697,7 +720,7 @@ h2, h3{
 			background: url('../img/arrow3.png') no-repeat;
 			background-position: center center;
 			border-radius: 100px;
-			background-color: #FE043C;
+			background-color: #35CD8C;
 			padding: 20px 16px;
 			width: 56px;
 			height: 56px;

@@ -1,0 +1,31 @@
+@media screen and (max-width: 1850px) {
+  .container {
+    width: 1400px; }
+  .header {
+    padding-bottom: 270px; }
+    .header-content__img:first-child {
+      right: 50px;
+      top: 100px; }
+    .header-content__img:last-child {
+      margin-top: 200px;
+      width: 100%; }
+    .header-content__title {
+      font-size: 60px; }
+    .header-content__text {
+      font-size: 170px; }
+  .restaurants-block__title {
+    font-size: 40px; }
+  .advance-block {
+    margin-left: 0; }
+  .advance-background2 {
+    z-index: 2; }
+  .quality-card__item1 {
+    margin: 140px 0px 0px 85px; }
+  .quality-card__img__first, .quality-card__img__second {
+    width: 340px; }
+  .quality-card__title1:before {
+    width: 109px; }
+  .quality-card:nth-child(2) h3:after {
+    background: url("../img/Arrow5.png"); }
+  .quality-card:nth-child(2) h3:after {
+    background: url("../img/Arrow5.png"); } }
